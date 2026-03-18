@@ -1,9 +1,9 @@
-#### Рекомендую сначала прочитать [[XSS (Rreflected)]]
+#### Рекомендую сначала прочитать [XSS (Rreflected)](https://github.com/obsca/DVWA-analysis/blob/main/XSS%20(Rreflected).md)
 
 Тут становится уже интереснее, во первых используется POST запрос, во вторых данные уже передаются не в URL запросе, а как параметры в HTTP. 
 ### LOW
 Посмотрим название параметров которые мы передаетм в DevTools. Во вкладке Network выберем запрос, который отправляется при передаче параметров:
-![[Pasted image 20260225224117.png]]
+<img width="1466" height="687" alt="Pasted image 20260225224117" src="https://github.com/user-attachments/assets/5685c20e-5a93-47c1-af82-eb37e0e98ee6" />
 
 Крафтим вот такой запрос с такими параметрами:
 ```sh
@@ -22,8 +22,8 @@
 ```
 
 И тоже спокойно получаем готовый PoC
+<img width="224" height="309" alt="Pasted image 20260225224851" src="https://github.com/user-attachments/assets/af718df2-d76c-46a7-851a-088ccf4fd3c3" />
 
-![[Pasted image 20260225224851.png]]
 После проведения Хранимой XSS, во вкладке Setup/Reset DB обновим БД что бы убрать наши XSS payload-ы
 
 #### Уязвимый код

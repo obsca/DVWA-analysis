@@ -1,6 +1,6 @@
 ### LOW
 
-![[Pasted image 20260226000848.png]]
+<img width="569" height="293" alt="Pasted image 20260226000848" src="https://github.com/user-attachments/assets/a4d9d7ee-efbc-470a-9807-57d63a5d85a3" />
 
 Когда мы вписываем ip адрес, сайт выполняет команду 
 
